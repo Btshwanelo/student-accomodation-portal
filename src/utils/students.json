@@ -1,0 +1,104 @@
+{
+  "info": {
+    "_postman_id": "46a9cbc5-5d63-4d8d-b129-ec02330b270a",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "30559853"
+  },
+  "item": [
+    {
+      "name": "NSFAS-Screen",
+      "item": [
+        {
+          "name": "https://nsfas-dev.sandbox.api.ezra360.com/api/v1.0/entities/ExecuteRequest",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "api-key",
+                "value": "yPbeb.4vzmwJTJFOhruwbg7pTLjotxzKxpNxy9veDrbvq1cKS",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"entityName\": \"Student\",\r\n    \"requestName\": \"StudentSearch\",\r\n    \"inputParamters\": {\r\n        \"SearchText\": \"\",\r\n        \"IdNumber\": \"0301015951082\"\r\n       \r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://nsfas-dev.sandbox.api.ezra360.com/api/v1.0/entities/ExecuteRequest",
+              "protocol": "https",
+              "host": ["nsfas-dev", "sandbox", "api", "ezra360", "com"],
+              "path": ["api", "v1.0", "entities", "ExecuteRequest"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "https://nsfas-dev.sandbox.api.ezra360.com/api/v1.0/entities/ExecuteRequest",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "api-key",
+                "value": "yPbeb.4vzmwJTJFOhruwbg7pTLjotxzKxpNxy9veDrbvq1cKS",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"entityName\": \"Employee\",\r\n    \"requestName\": \"RetrieveProfileDetailsReq\",\r\n    \"inputParamters\": {\r\n        \"RecordId\": \"284ae987-18e5-4186-92d5-9b42468a9408\"\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://nsfas-dev.sandbox.api.ezra360.com/api/v1.0/entities/ExecuteRequest",
+              "protocol": "https",
+              "host": ["nsfas-dev", "sandbox", "api", "ezra360", "com"],
+              "path": ["api", "v1.0", "entities", "ExecuteRequest"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "https://nsfas-dev.sandbox.api.ezra360.com/api/v1.0/entities/ExecuteRequest",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "api-key",
+                "value": "yPbeb.4vzmwJTJFOhruwbg7pTLjotxzKxpNxy9veDrbvq1cKS",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"entityName\": \"AccomodationApplications\",\r\n    \"requestName\": \"StudentDetailsReq\",\r\n    \"inputParamters\": {\r\n        \"SearchText\": \"\",\r\n        \"AccommodationProviderId\": \"c8b6f76b-9db8-4788-bb90-f4cccd0ad57b\",\r\n        \"Name\": \"RIRHANDZU SONO\",\r\n        \"Email\": \"ronells@xiquelgroup.com\"\r\n       \r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://nsfas-dev.sandbox.api.ezra360.com/api/v1.0/entities/ExecuteRequest",
+              "protocol": "https",
+              "host": ["nsfas-dev", "sandbox", "api", "ezra360", "com"],
+              "path": ["api", "v1.0", "entities", "ExecuteRequest"]
+            },
+            "description": "StudentDetailsReg"
+          },
+          "response": []
+        }
+      ],
+      "description": "---\n\n\\-"
+    }
+  ]
+}
